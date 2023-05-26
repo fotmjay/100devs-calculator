@@ -7,7 +7,7 @@ function clickedCalc(click) {
     const target = click.target.innerText;
     if (target === 'X' || target === '/' || target === '+' || target === '-' || target === '=') {
         operatorUsed(target);
-    } else if (target === 'C') {
+    } else if (target === 'clear') {
         document.querySelector('#result').value = '';
         numberStored = 0;
     }else {
