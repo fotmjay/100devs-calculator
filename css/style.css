@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -23,10 +23,12 @@
 
 ::-webkit-outer-spin-button,
 ::-webkit-inner-spin-button {
-        display: none;
+  display: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -42,13 +44,12 @@ h3 {
 }
 
 ol {
-  display:flex;
+  display: flex;
   width: auto;
   list-style-type: none;
   margin: 10px 0;
   padding: 0;
   justify-content: space-around;
-
 }
 li {
   border: 1px solid white;
@@ -58,12 +59,13 @@ li {
   font-size: 40px;
   width: 40px;
   height: 40px;
-  text-align:center;
+  text-align: center;
   line-height: 40px;
 }
 
-li:hover, h3:hover {
-  cursor:default;
+li:hover,
+h3:hover {
+  cursor: default;
 }
 
 #result {
@@ -74,7 +76,7 @@ li:hover, h3:hover {
 }
 
 div {
-  display:flex;
+  display: flex;
   background: black;
   width: 250px;
   height: 350px;
@@ -86,5 +88,13 @@ div {
 
 section {
   height: 80%;
-  width:auto;
+  width: auto;
+}
+
+h6 {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.6rem;
+  right: 0;
+  margin-bottom: 0;
 }
