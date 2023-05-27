@@ -90,3 +90,11 @@ section {
   height: 80%;
   width: auto;
 }
+
+h6 {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.6rem;
+  right: 0;
+  margin-bottom: 0;
+}
